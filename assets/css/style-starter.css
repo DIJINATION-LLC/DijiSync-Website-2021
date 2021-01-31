@@ -10602,7 +10602,7 @@ ul.icon-rounded.address li p span.fa {
 /*-- //humberger --*/
 
 .diji-features-photo-5 {
-  background: url(../images/bg1.jpg) no-repeat center fixed;
+  background: linear-gradient(336deg, rgb(255 255 255 / 80%), rgb(255 255 255 / 80%) 70.71%), url(../images/bg1.jpg) no-repeat center fixed;
   position: relative;
   background-size: cover;
   z-index: 1;
