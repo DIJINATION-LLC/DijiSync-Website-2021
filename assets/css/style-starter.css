@@ -10600,6 +10600,25 @@ ul.icon-rounded.address li p span.fa {
   transition: all 0.5s; }
 
 /*-- //humberger --*/
+
+.diji-features-photo-5 {
+  background: url(../images/bg1.jpg) no-repeat center fixed;
+  position: relative;
+  background-size: cover;
+  z-index: 1;
+}
+
+.diji-features-photo-5:before {
+  background: rgba(16, 16, 16, 0.470588);
+  position: absolute;
+    top: 0;
+    min-height: 100%;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+
 .diji-features-photo-7 .diji-features-photo-7_top-left h2 {
   font-size: 32px;
   font-weight: 700;
@@ -12038,3 +12057,126 @@ section.diji-grid-quote h3 {
   font-size: 16px;
   line-height: 25px;
 }
+
+.service-tab-section {
+   position: relative;
+}
+
+
+#special h5{
+   font-size: 1.5rem;
+   font-weight: 600;
+
+}
+
+.heading-custom {
+  margin: 1rem 0;
+}
+
+ .service-tab-section .outer-box {
+   position: relative;
+   z-index: 1;
+}
+ .tabs .nav-tabs > li, .tabs .nav-pills > li {
+   margin-bottom: 10px;
+}
+ .tabs .nav-tabs {
+   text-align: center;
+   border-bottom: 0;
+   margin-bottom: 20px;
+}
+ .tabs .nav-tabs li:not(:last-child) {
+   margin-right: 10px;
+}
+ .tabs .nav-tabs li a {
+   text-transform: capitalize;
+   font-size: 20px;
+   padding: 10px 25px;
+   font-weight: 600;
+   color: #4d4d4d;
+   border: 2px solid #17449e;
+   border-radius: 0;
+   transition: all 0.3s ease;
+}
+ .tabs .nav-tabs li a.active, .tabs .nav-tabs li a:hover {
+   color: #fff;
+   background: #17449e;
+   border: 2px solid #17449e;
+}
+ .tab-content {
+   position: relative;
+   float: left;
+   width: 100%;
+   z-index: 99;
+}
+ .service-box {
+   position: relative;
+   width: 100%;
+}
+/* .service-box img {
+   border-radius: 14px;
+   width: 100%;
+   box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.2);
+}*/
+ .service-box .contents {
+   margin-left: 30px;
+}
+ @include desktop{
+   margin-left: 0;
+   margin-top: 50px;
+}
+ .service-box .contents .btn-style-one {
+   margin-top: 20px;
+}
+ .service-box .section-title h3 {
+   position: relative;
+   font-size: 32px;
+   line-height: 42px;
+   font-weight: 700;
+   padding-bottom: 20px;
+   margin-bottom: 45px;
+   color: black;
+   text-transform: uppercase;
+}
+ .service-box .section-title h3:before {
+   position: absolute;
+   left: 0px;
+   content: '';
+   bottom: 0px;
+   background: blue;
+   height: 1px;
+   width: 55px;
+}
+ .service-box .text {
+   position: relative;
+   margin-bottom: 15px;
+}
+ .service-box .text p {
+   font-size: 15px;
+   line-height: 26px;
+   font-weight: 500;
+   padding-top: 5px;
+}
+ .service-box .icon-box {
+   position: absolute;
+   top: 0px;
+   left: -5px;
+}
+ .service-box .content-list {
+   padding-left: 0;
+}
+ .service-box .content-list li {
+   font-size: 15px;
+   line-height: 26px;
+   font-weight: 500;
+   padding: 4px 0px;
+   padding-left: 27px;
+   list-style: none;
+   position: relative;
+}
+ .service-box .content-list li i {
+   position: absolute;
+   left: 0;
+   top: 9px;
+}
+ 
