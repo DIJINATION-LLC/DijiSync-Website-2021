@@ -12180,3 +12180,31 @@ section.diji-grid-quote h3 {
    top: 9px;
 }
  
+.service-arrow .block {
+    padding: 70px 30px;
+} 
+
+.service-arrow p {
+  color: #fff;
+  font-style: 1.2rem;
+  padding-top: 1rem;
+  line-height: 1.5rem;
+} 
+
+.service-arrow h3 {
+  color: #fff;
+} 
+
+.service-arrow .alpha {
+  background: #39529a;
+} 
+
+.service-arrow .beta {
+  background: #4F74B3;
+} 
+
+.service-arrow .gamma {
+  background: #65a6de;
+} 
+
+    
