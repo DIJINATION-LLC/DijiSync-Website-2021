@@ -33,8 +33,19 @@
           <li class="nav-item">
             <a class="nav-link" href="index.html">Home</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="services.html">Services</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="revenue-cycle-management.html">Revenue Cycle Management</a></li>
+              <li><a class="dropdown-item" href="revenue-cycle-enhancement.html">Revenue Cycle Enhancement</a></li>
+              <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">ClinicOps 360</a>
+                <ul class="dropdown-menu d-alpha">
+                  <li><a class="dropdown-item" href="front-office-outsourcing.html">Front Office Outsourcing</a></li>
+                  <li><a class="dropdown-item" href="credentialing.html">Credentialing</a></li>
+                  <li><a class="dropdown-item" href="financial-services.html">CPA/Financial Services</a></li>
+                </ul>
+              </li>
+            </ul>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="specialities.html">Specialities Served</a>
@@ -449,7 +460,23 @@
     });
   </script>
   <!-- disable body scroll which navbar is in active -->
+<script type="text/javascript">
+      $('.dropdown-menu a.dropdown-toggle').on('click', function(e) {
+        if (!$(this).next().hasClass('show')) {
+          $(this).parents('.dropdown-menu').first().find('.show').removeClass("show");
+        }
+        var $subMenu = $(this).next(".dropdown-menu");
+        $subMenu.toggleClass('show');
 
+
+        $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function(e) {
+          $('.dropdown-submenu .show').removeClass("show");
+        });
+
+
+        return false;
+      });
+    </script>
     <script src="assets/js/bootstrap.min.js"></script>
 
     </body>

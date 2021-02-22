@@ -12223,3 +12223,37 @@ section.diji-grid-quote h3 {
   }
 
 
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu a::after {
+  transform: rotate(-90deg);
+  position: absolute;
+  right: 12px;
+  top: .8em;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-left: 10.8rem;
+  margin-right: .1rem;
+}
+
+.diji-bootstrap-header .navbar-expand-md .navbar-nav .dropdown-menu .d-alpha:before {
+    content: '';
+    width: 14px;
+    height: 14px;
+    background: #fff;
+    border: none;
+    display: block;
+    border-right: none;
+    border-bottom: none;
+    transform: translateX(-50%) rotateZ(
+135deg
+);
+    position: absolute;
+    top: 5px;
+    left: 0%;
+    z-index: 981;
