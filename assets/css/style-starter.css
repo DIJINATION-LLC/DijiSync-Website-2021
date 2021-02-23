@@ -11407,7 +11407,7 @@ p.stats-text {
 
 .content-left h4 {
   font-size: 2rem;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 35px;
   margin-bottom: 20px; }
 
@@ -11720,6 +11720,12 @@ p.stats-text {
   @media (max-width: 375px) {
     .diji-teams-32-main a.title-team-32 {
       font-size: 18px; } }
+
+
+
+.diji-features-7 h2 {
+  font-weight: 600;
+}
 
 .diji-features-7 .features h5 a {
   font-size: 24px;
