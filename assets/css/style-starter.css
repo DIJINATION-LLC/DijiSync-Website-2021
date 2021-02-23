@@ -12268,12 +12268,12 @@ section.diji-grid-quote h3 {
   #mySidenav a {
   position: fixed;
   top: 50%;
-  right: -100px;
+  right: -200px;
   transition: 0.3s;
   padding: 1rem;
   width: 15rem;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: white;
   border-radius: 0 5px 5px 0;
 }
