@@ -16,8 +16,8 @@
 </head>
 <body>
   <div id="mySidenav" class="sidenav">
-  <p><a href="tel:+1 (800) 552 2975" id="blog">&nbsp;<span class="fa fa-phone"></span>&nbsp; &nbsp; +1 (800) 552 2975</a></p>
-</div>
+    <p><a href="tel:+1 (800) 552 2975" id="blog">&nbsp;<span class="fa fa-phone"></span>&nbsp; &nbsp; +1 (800) 552 2975</a></p>
+  </div>
   <section class="diji-bootstrap-header">
     <nav class="navbar navbar-expand-md navbar-light py-3">
       <div class="container">
@@ -25,7 +25,7 @@
         Medpill</a>
         if logo is image enable this  -->  
         <a class="navbar-brand" href="index.html">
-          <img src="assets/images/logo.png" alt="Your logo" title="Your logo" style="height:4rem;" />
+          <img src="assets/images/logo.png" alt="Your logo" title="Your logo" class="diji-logo"/>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,13 +42,7 @@
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <li><a class="dropdown-item" href="revenue-cycle-management.html">Revenue Cycle Management</a></li>
               <li><a class="dropdown-item" href="revenue-cycle-enhancement.html">Revenue Cycle Enhancement</a></li>
-              <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">ClinicOps 360</a>
-                <ul class="dropdown-menu d-alpha">
-                  <li><a class="dropdown-item" href="front-office-outsourcing.html">Front Office Outsourcing</a></li>
-                  <li><a class="dropdown-item" href="credentialing.html">Credentialing</a></li>
-                  <li><a class="dropdown-item" href="financial-services.html">CPA/Financial Services</a></li>
-                </ul>
-              </li>
+              <li><a class="dropdown-item" href="clinicops-360">ClinicOps 360</a></li>
             </ul>
           </li>
           <li class="nav-item">
@@ -87,7 +81,7 @@
       <!--     <h2 class="logo"><img src="assets/images/award.png" class="img-fluid"> Medpill</h2>
         if logo is image enable this    -->
         <h2 class="logo">
-          <img src="assets/images/logo.png" alt="Your logo" title="Your logo" style="height:4rem;" />
+          <img src="assets/images/logo.png" alt="Your logo" title="Your logo" class="diji-logo"/>
         </h2>
         <p class="mt-md-3 mt-2">DijiSync brings digital disruption to the complex healthcare informations systems.</p>
         <div class="widget-menu-items mt-sm-5 mt-4">
@@ -100,10 +94,14 @@
               <li class="nav-item">
                 <a class="nav-link" href="about.html">About</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="rcm.html">Services</a>
+              <li class="nav-item dropdown active">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="revenue-cycle-management.html">Revenue Cycle Management</a></li>
+                  <li><a class="dropdown-item" href="revenue-cycle-enhancement.html">Revenue Cycle Enhancement</a></li>
+                  <li><a class="dropdown-item" href="clinicops-360">ClinicOps 360</a></li>
+                </ul>
               </li>
-
               <li class="nav-item">
                 <a class="nav-link" href="specialities.html">Specialities Served</a>
               </li>

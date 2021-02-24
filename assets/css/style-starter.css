@@ -10633,7 +10633,7 @@ ul.icon-rounded.address li p span.fa {
 /*-- //humberger --*/
 
 .diji-features-photo-5 {
-  background: linear-gradient(336deg, rgb(255 255 255 / 80%), rgb(255 255 255 / 80%) 70.71%), url(../images/bg1.jpg) no-repeat center fixed;
+  background: linear-gradient(336deg, rgb(255 255 255 / 90%), rgb(255 255 255 / 90%) 70.71%), url(../images/bg1.jpg) no-repeat center fixed;
   position: relative;
   background-size: cover;
   z-index: 1;
@@ -12015,7 +12015,7 @@ section.diji-grid-quote h3 {
 }
 
 .cta .cta-block .emmergency {
-  background: #48bdc5;
+  background: #18449E;
 }
 
 .cta .cta-block .emmergency a {
@@ -12028,7 +12028,7 @@ section.diji-grid-quote h3 {
 }
 
 .cta .cta-block .top-doctor {
-  background: #5bc4cb;
+  background: #4F74B3;
 }
 
 .cta .cta-block .top-doctor .btn-main {
@@ -12045,7 +12045,7 @@ section.diji-grid-quote h3 {
 }
 
 .cta .cta-block .working-time {
-  background: #6fcbd1;
+  background: #65A6DE;
 }
 
 .cta .cta-block .working-time ul {
@@ -12296,3 +12296,6 @@ section.diji-grid-quote h3 {
     z-index: 981;
   }
 
+.diji-logo {
+ width: 12rem !important;
+}

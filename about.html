@@ -15,6 +15,9 @@
   <link rel="stylesheet" href="assets/css/style-starter.css">
 </head>
 <body>
+  <div id="mySidenav" class="sidenav">
+    <p><a href="tel:+1 (800) 552 2975" id="blog">&nbsp;<span class="fa fa-phone"></span>&nbsp; &nbsp; +1 (800) 552 2975</a></p>
+  </div>
   <section class="diji-bootstrap-header">
     <nav class="navbar navbar-expand-md navbar-light py-3">
       <div class="container">
@@ -22,7 +25,7 @@
         Medpill</a>
         if logo is image enable this  -->  
         <a class="navbar-brand" href="index.html">
-          <img src="assets/images/logo.png" alt="Your logo" title="Your logo" style="height:4rem;" />
+          <img src="assets/images/logo.png" alt="Your logo" title="Your logo" class="diji-logo"/>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,13 +42,7 @@
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <li><a class="dropdown-item" href="revenue-cycle-management.html">Revenue Cycle Management</a></li>
               <li><a class="dropdown-item" href="revenue-cycle-enhancement.html">Revenue Cycle Enhancement</a></li>
-              <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">ClinicOps 360</a>
-                <ul class="dropdown-menu d-alpha">
-                  <li><a class="dropdown-item" href="front-office-outsourcing.html">Front Office Outsourcing</a></li>
-                  <li><a class="dropdown-item" href="credentialing.html">Credentialing</a></li>
-                  <li><a class="dropdown-item" href="financial-services.html">CPA/Financial Services</a></li>
-                </ul>
-              </li>
+              <li><a class="dropdown-item" href="clinicops-360">ClinicOps 360</a></li>
             </ul>
           </li>
           <li class="nav-item">
@@ -84,7 +81,7 @@
       <!--     <h2 class="logo"><img src="assets/images/award.png" class="img-fluid"> Medpill</h2>
         if logo is image enable this    -->
         <h2 class="logo">
-          <img src="assets/images/logo.png" alt="Your logo" title="Your logo" style="height:4rem;" />
+          <img src="assets/images/logo.png" alt="Your logo" title="Your logo" class="diji-logo"/>
         </h2>
         <p class="mt-md-3 mt-2">DijiSync brings digital disruption to the complex healthcare informations systems.</p>
         <div class="widget-menu-items mt-sm-5 mt-4">
@@ -97,8 +94,13 @@
               <li class="nav-item active">
                 <a class="nav-link" href="about.html">About</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="services.html">Services</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="revenue-cycle-management.html">Revenue Cycle Management</a></li>
+                  <li><a class="dropdown-item" href="revenue-cycle-enhancement.html">Revenue Cycle Enhancement</a></li>
+                  <li><a class="dropdown-item" href="clinicops-360">ClinicOps 360</a></li>
+                </ul>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="specialities.html">Specialities Served</a>
@@ -145,7 +147,7 @@
 <section class="diji-about-breadcrumb">
   <div class="breadcrumb-bg breadcrumb-bg-about py-5">
     <div class="container py-lg-5 py-md-3">
-      <h2>About Us</h2>
+      <h2>About DijiSync</h2>
     </div>
   </div>
 </section>
@@ -175,59 +177,59 @@
 
 
 <section id="features" class="diji-content-photo-5 py-5 features">
-      <div class="container">
-        <div class="row">
-        
-          
+  <div class="container">
+    <div class="row">
 
-          <!-- service item -->
-          <div class="col-md-4 wow fadeInLeft" data-wow-duration="500ms">
-            <div class="service-item">
-              <div class="service-icon">
-                <i class="fa fa-github fa-2x"></i>
-              </div>
-              
-              <div class="service-desc">
-                <h3>Mission</h3>
-                <p>Bring Digital Disruption to Healthcare</p>
-              </div>
-            </div>
+
+
+      <!-- service item -->
+      <div class="col-md-4 wow fadeInLeft" data-wow-duration="500ms">
+        <div class="service-item">
+          <div class="service-icon">
+            <i class="fa fa-github fa-2x"></i>
           </div>
-          <!-- end service item -->
-          
-          <!-- service item -->
-          <div class="col-md-4 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="500ms">
-            <div class="service-item">
-              <div class="service-icon">
-                <i class="fa fa-pencil fa-2x"></i>
-              </div>
-              
-              <div class="service-desc">
-                <h3>Vision</h3>
-                <p>Revolutionize the Healthcare Technology Services delivery to providers, patients and payers.</p>
-              </div>
-            </div>
+
+          <div class="service-desc">
+            <h3>Mission</h3>
+            <p>Bring Digital Disruption to Healthcare</p>
           </div>
-          <!-- end service item -->
-          
-          <!-- service item -->
-          <div class="col-md-4 wow fadeInRight" data-wow-duration="500ms"  data-wow-delay="900ms">
-            <div class="service-item">
-              <div class="service-icon">
-                <i class="fa fa-bullhorn fa-2x"></i>
-              </div>
-              
-              <div class="service-desc">
-                <h3>Goal</h3>
-                <p>Disrupt the CRM and ancillary support services.</p>
-              </div>
-            </div>
-          </div>
-          <!-- end service item -->
-            
         </div>
       </div>
-    </section>
+      <!-- end service item -->
+
+      <!-- service item -->
+      <div class="col-md-4 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="500ms">
+        <div class="service-item">
+          <div class="service-icon">
+            <i class="fa fa-pencil fa-2x"></i>
+          </div>
+
+          <div class="service-desc">
+            <h3>Vision</h3>
+            <p>Revolutionize the Healthcare Technology Services delivery to providers, patients and payers.</p>
+          </div>
+        </div>
+      </div>
+      <!-- end service item -->
+
+      <!-- service item -->
+      <div class="col-md-4 wow fadeInRight" data-wow-duration="500ms"  data-wow-delay="900ms">
+        <div class="service-item">
+          <div class="service-icon">
+            <i class="fa fa-bullhorn fa-2x"></i>
+          </div>
+
+          <div class="service-desc">
+            <h3>Goal</h3>
+            <p>Disrupt the CRM and ancillary support services.</p>
+          </div>
+        </div>
+      </div>
+      <!-- end service item -->
+
+    </div>
+  </div>
+</section>
 
 
 <!-- diji-content-photo-5 -->
@@ -380,9 +382,6 @@
       </div>
     </footer>
 
-<div id="mySidenav" class="sidenav">
-  <p><a href="tel:+1 (800) 552 2975" id="blog"><span class="fa fa-phone"></span> &nbsp; +1 (800) 552 2975</a></p>
-</div>
     <!-- move top -->
     <button onclick="topFunction()" id="movetop" title="Go to top">
       &#10548;
@@ -477,7 +476,7 @@
       });
     </script>
     <!-- disable body scroll which navbar is in active -->
-<script type="text/javascript">
+    <script type="text/javascript">
       $('.dropdown-menu a.dropdown-toggle').on('click', function(e) {
         if (!$(this).next().hasClass('show')) {
           $(this).parents('.dropdown-menu').first().find('.show').removeClass("show");
