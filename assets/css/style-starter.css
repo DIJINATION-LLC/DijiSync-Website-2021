@@ -100,6 +100,37 @@ dl {
   margin-top: 0;
   margin-bottom: 1rem; }
 
+
+#mySidenav a {
+  position: fixed;
+  top: 50%;
+  right: -190px;
+  transition: 0.3s;
+  padding: 1rem;
+  width: 15rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: white;
+  border-radius: 5px 0 0 5px;
+  z-index:1000
+}
+
+#mySidenav a:hover {
+  right: 0;
+}
+
+#about {
+  top: 20px;
+  background-color: #18449e;
+}
+
+#blog {
+  top: 80px;
+  background-color: #2196F3;
+}
+
+
+
 ol ol,
 ul ul,
 ol ul,
@@ -12264,31 +12295,4 @@ section.diji-grid-quote h3 {
     left: 0%;
     z-index: 981;
   }
-
-  #mySidenav a {
-  position: fixed;
-  top: 50%;
-  right: -200px;
-  transition: 0.3s;
-  padding: 1rem;
-  width: 15rem;
-  text-decoration: none;
-  font-size: 1.2rem;
-  color: white;
-  border-radius: 0 5px 5px 0;
-}
-
-#mySidenav a:hover {
-  right: 0;
-}
-
-#about {
-  top: 20px;
-  background-color: #18449e;
-}
-
-#blog {
-  top: 80px;
-  background-color: #2196F3;
-}
 
