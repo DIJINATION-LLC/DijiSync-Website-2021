@@ -11373,12 +11373,31 @@ p.stats-text {
   background-position: center;
   background-attachment: fixed; }
 
-.diji-about-breadcrumb .breadcrumb-bg-services {
-  background-size: cover;
-  background-image: linear-gradient(to right, #17449e, rgba(26, 35, 129, 0.6)), url(../images/breadcrumbbg.jpg);
+
+.diji-about-breadcrumb .breadcrumb-bg-rcm {
+  background:  linear-gradient(90deg, rgb(24 68 158  / 90%), rgb(24 68 158 / 60%) 90%), url(../images/icons_RCE.png) no-repeat top right fixed;
+  /*background-size: contain;*/
+  /*background-image: linear-gradient(to right, #17449e, rgba(26, 35, 129, 0.6)), url(../images/icons_RID.png);
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: center;
-  background-attachment: fixed; }
+  background-attachment: fixed;*/ }
+
+
+.diji-about-breadcrumb .breadcrumb-bg-rid {
+  background:  linear-gradient(90deg, rgb(24 68 158  / 90%), rgb(24 68 158 / 60%) 90%), url(../images/icons_RID.png) no-repeat top right fixed;
+  /*background-size: contain;*/
+  /*background-image: linear-gradient(to right, #17449e, rgba(26, 35, 129, 0.6)), url(../images/icons_RID.png);
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: center;
+  background-attachment: fixed;*/ }
+
+ .diji-about-breadcrumb .breadcrumb-bg-co360 {
+  background:  linear-gradient(90deg, rgb(24 68 158  / 90%), rgb(24 68 158 / 60%) 90%), url(../images/icons_ClinicOps.png) no-repeat top right fixed;
+  /*background-size: contain;*/
+  /*background-image: linear-gradient(to right, #17449e, rgba(26, 35, 129, 0.6)), url(../images/icons_RID.png);
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: center;
+  background-attachment: fixed;*/ } 
 
 .diji-about-breadcrumb .breadcrumb-bg-blog {
   background-size: cover;
@@ -11410,7 +11429,6 @@ p.stats-text {
 .diji-about-breadcrumb .breadcrumb-bg p {
   color: #fff;
   margin-top: 10px;
-  text-transform: capitalize;
   font-weight: 600; }
 
 .diji-about-breadcrumb .breadcrumb-bg p a {
@@ -12242,7 +12260,19 @@ section.diji-grid-quote h3 {
 
 .service-arrow .gamma {
   background: linear-gradient(336deg, rgb(101 166 222 / 80%), rgb(101 166 222/ 90%) 90%), url(../images/FoQ.png) no-repeat right fixed;
+}
+
+.service-arrow .alpha2 {
+ background: linear-gradient(336deg, rgb(24 68 158 / 80%), rgb(24 68 158 / 90%) 90%), url(../images/GAtCBI.png) no-repeat left fixed;
 } 
+
+.service-arrow .beta2 {
+  background: linear-gradient(336deg, rgb(79 116 179 / 80%), rgb(79 116 179/ 90%) 90%), url(../images/AUE.png) no-repeat center fixed;
+} 
+
+.service-arrow .gamma2 {
+  background: linear-gradient(336deg, rgb(101 166 222 / 80%), rgb(101 166 222/ 90%) 90%), url(../images/SfgI.png) no-repeat right fixed;
+}  
 
 .diji-content-photo-5 li {
     list-style-type: none;
