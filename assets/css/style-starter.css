@@ -9653,7 +9653,7 @@ p.white {
 .btn-style {
   padding: 12px 30px;
   color: #fff;
-  font-size: 1rem;
+  font-size: 1.2rem;
   text-transform: capitalize;
   font-weight: 700;
   transition: 0.3s ease-in;
@@ -9669,7 +9669,7 @@ p.white {
 .btn-style-white {
   padding: 12px 30px;
   color: #17449e;
-  font-size: 1rem;
+  font-size: 1.2rem;
   text-transform: capitalize;
   font-weight: 700;
   transition: 0.3s ease-in;
@@ -9684,7 +9684,7 @@ p.white {
 .btn-style-outline {
   padding: 12px 30px;
   color: #fff;
-  font-size: 1rem;
+  font-size: 1.2rem;
   text-transform: capitalize;
   font-weight: 700;
   transition: 0.3s ease-in;
