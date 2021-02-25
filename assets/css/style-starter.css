@@ -1,14 +1,5 @@
 @charset "UTF-8";
-/*--
-Author: dijiayouts
-Author URL: http://dijiayouts.com
---*/
-/*!
- * Bootstrap v4.4.1 (https://getbootstrap.com/)
- * Copyright 2011-2019 The Bootstrap Authors
- * Copyright 2011-2019 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -10561,6 +10552,12 @@ ul.icon-rounded li {
 a.social-link.twitter {
   background: #1da1f2; }
 
+a.social-link.facebook {
+  background: #4064AC; }
+
+a.social-link.instagram {
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); }  
+
 a.social-link.linkedin {
   background: #0077b5; }
 
@@ -11121,7 +11118,7 @@ h4.title-left {
 
 .diji-features {
   background: linear-gradient(336deg, rgb(255 255 255 / 85%), rgb(255 255 255 / 85%) 70.71%), url(../images/bg1.jpg) no-repeat center fixed; }
-  
+
 
 .diji-stats {
   background: #fff;
