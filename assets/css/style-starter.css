@@ -10399,7 +10399,7 @@ button.owl-next {
   align-items: center; }
 
 .diji-main-slider .banner-top1 {
-  background: url(../images/banner2.jpg) no-repeat center;
+  background: url(../images/banner2.png) no-repeat center;
   background-size: cover; }
 
 .diji-main-slider .banner-top2 {
@@ -11401,7 +11401,7 @@ p.stats-text {
 
 .diji-about-breadcrumb .breadcrumb-bg-blog {
   background-size: cover;
-  background-image: linear-gradient(to right, #17449e, rgba(26, 35, 129, 0.6)), url(../images/banner2.jpg);
+  background-image: linear-gradient(to right, #17449e, rgba(26, 35, 129, 0.6)), url(../images/banner2.png);
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: center;
   background-attachment: fixed; }
