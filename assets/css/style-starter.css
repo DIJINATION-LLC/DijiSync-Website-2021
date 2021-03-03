@@ -9638,7 +9638,7 @@ p {
   margin-bottom: 1rem;
   font-size: 1.2rem;
   line-height: 2rem;
-  color: var(--para-color); }
+  color: #656565; }
 
 p.white {
   color: #eee; }
@@ -10396,7 +10396,7 @@ button.owl-next {
   background-size: cover; }
 
 .diji-main-slider .banner-top2 {
-  background: url(../images/banner3.jpg) no-repeat center;
+  background: url(../images/banner3.png) no-repeat center;
   background-size: cover; }
 
 .diji-main-slider .banner-top3 {
@@ -10740,7 +10740,7 @@ ul.icon-rounded.address li p span.fa {
     grid-gap: 10px; } }
 
 .diji-video-sec .video-inner {
-  background: url(../images/banner3.jpg) no-repeat center;
+  background: url(../images/revenue-cycle-partner.jpg) no-repeat center;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -10900,7 +10900,7 @@ ul.icon-rounded.address li p span.fa {
     min-height: 160px; } }
 
 .diji-apply-6 .apply-info {
-  background: url(../images/appointment.jpg) no-repeat center;
+  background: url(../images/billing-audit-form.jpg) no-repeat center;
   background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
@@ -10921,7 +10921,7 @@ ul.icon-rounded.address li p span.fa {
 
 .diji-apply-6 .apply-info h4 {
   color: #fff;
-  font-size: 36px;
+  font-size: 3.2rem;
   text-transform: capitalize;
   line-height: 50px;
   font-weight: 700; }
@@ -10934,7 +10934,19 @@ ul.icon-rounded.address li p span.fa {
 
 .diji-apply-6 .apply-info p {
   color: #eee;
-  margin-top: 10px; }
+  margin-top: 10px;
+  font-size:  1.4rem; }
+
+.diji-apply-6 .apply-info a {
+  color: #eee;
+  margin-top: 10px;
+  font-size: 1.5rem;
+  font-weight: 600; }
+
+.diji-apply-6 .apply-info a:hover {
+  
+  font-size: 1.8rem;
+   }
 
 .diji-apply-6 .appyl-sub-icon {
   width: 65px;
@@ -11119,6 +11131,9 @@ h4.title-left {
   margin-bottom: 20px; }
 
 .diji-features {
+  background: linear-gradient(336deg, rgb(255 255 255 / 85%), rgb(255 255 255 / 85%) 70.71%), url(../images/bg1.jpg) no-repeat center fixed; }
+
+.diji-features-2 {
   background: linear-gradient(336deg, rgb(255 255 255 / 85%), rgb(255 255 255 / 85%) 70.71%), url(../images/bg1.jpg) no-repeat center fixed; }
 
 
@@ -11408,14 +11423,14 @@ p.stats-text {
 
 .diji-about-breadcrumb .breadcrumb-bg-blogsingle {
   background-size: cover;
-  background-image: linear-gradient(to right, #17449e, rgba(26, 35, 129, 0.6)), url(../images/banner3.jpg);
+  background-image: linear-gradient(to right, #17449e, rgba(26, 35, 129, 0.6)), url(../images/banner3.png);
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: center;
   background-attachment: fixed; }
 
 .diji-about-breadcrumb .breadcrumb-bg-contact {
   background-size: cover;
-  background-image: linear-gradient(to right, #17449e, rgba(26, 35, 129, 0.6)), url(../images/appointment.jpg);
+  background-image: linear-gradient(to right, #17449e, rgba(26, 35, 129, 0.6)), url(../images/billing-audit-form.jpg);
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: center;
   background-attachment: fixed; }
@@ -12333,3 +12348,17 @@ section.diji-grid-quote h3 {
 .diji-features-7 strong{
   color: #505050
 }
+
+.diji-features-2 h3{
+  font-size: 2rem;
+}
+
+.diji-features-2 h4{
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+.diji-features-2 h5{
+ color: #17449e;
+}
+
