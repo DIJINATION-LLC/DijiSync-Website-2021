@@ -12362,3 +12362,9 @@ section.diji-grid-quote h3 {
  color: #17449e;
 }
 
+#b-a-a ol.roman {list-style-type: lower-roman;}
+#b-a-a ol.alpha {list-style-type: lower-alpha;}
+
+.img-h{
+  max-height: 50vh;
+}
