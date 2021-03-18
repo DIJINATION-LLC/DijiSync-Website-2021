@@ -12362,9 +12362,24 @@ section.diji-grid-quote h3 {
  color: #17449e;
 }
 
-#b-a-a ol.roman {list-style-type: lower-roman;}
-#b-a-a ol.alpha {list-style-type: lower-alpha;}
 
 .img-h{
   max-height: 50vh;
+}
+
+.diji-content-agreement-5 li{
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding-top: 0.8rem;
+}
+
+.diji-content-agreement-5 ol{
+  padding-top: 1rem;
+}
+
+.diji-content-agreement-5 p{
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  padding-top: 0.8rem;
 }
