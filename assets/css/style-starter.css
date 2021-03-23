@@ -11381,6 +11381,15 @@ p.stats-text {
   .diji-medpill-footer .copy-footer-28 {
     font-size: 16px; } }
 
+.diji-content-photo-5 {
+    background: linear-gradient(
+336deg
+, rgb(255 255 255 / 85%), rgb(255 255 255 / 85%) 70.71%), url(../images/bg1.jpg) no-repeat center fixed;
+    position: relative;
+    background-size: cover;
+    z-index: 1;
+}
+
 .diji-about-breadcrumb .breadcrumb-bg-about {
   background-size: cover;
   background-image: linear-gradient(to right, #17449e, rgba(26, 35, 129, 0.6)), url(../images/breadcrumbbg.jpg);
@@ -11924,6 +11933,15 @@ section.diji-grid-quote h3 {
   section.diji-grid-quote h3 {
     font-size: 1.8em; } }
 
+.diji-contact {
+    background: linear-gradient(
+336deg
+, rgb(255 255 255 / 85%), rgb(255 255 255 / 85%) 70.71%), url(../images/bg1.jpg) no-repeat center fixed;
+    position: relative;
+    background-size: cover;
+    z-index: 1;
+}    
+
 .diji-contact button.btn.contact-dijiayouts {
   font-size: 14px;
   text-decoration: none;
@@ -12129,7 +12147,23 @@ section.diji-grid-quote h3 {
 }
 
 .service-tab-section {
-   position: relative;
+    background: linear-gradient(
+336deg
+, rgb(255 255 255 / 85%), rgb(255 255 255 / 85%) 70.71%), url(../images/bg1.jpg) no-repeat center fixed;
+    position: relative;
+    background-size: cover;
+    z-index: 1;
+
+}
+
+.diji-features-7 {
+    background: linear-gradient(
+336deg
+, rgb(255 255 255 / 85%), rgb(255 255 255 / 85%) 70.71%), url(../images/bg1.jpg) no-repeat center fixed;
+    position: relative;
+    background-size: cover;
+    z-index: 1;
+
 }
 
 
