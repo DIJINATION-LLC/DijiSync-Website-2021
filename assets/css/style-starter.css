@@ -10391,6 +10391,11 @@ button.owl-next {
   display: grid;
   align-items: center; }
 
+@media (min-width: 992px){
+.diji-main-slider .banner-view {
+    min-height: 700px;
+}
+}
 .diji-main-slider .banner-top1 {
   background: url(../images/banner2.png) no-repeat center;
   background-size: cover; }
