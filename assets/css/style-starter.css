@@ -11617,8 +11617,7 @@ p.stats-text {
   margin-bottom: 20px; }
 
 .diji-text-6 .right-img.sec-img-ab {
-  background: linear-gradient(131deg, #f3f3f3 0%, #999999 100%) !important;
-  background: linear-gradient(131deg, #f3f3f3 0%, #999999 100%) !important;
+  background: linear-gradient(131deg, #f3f3f3 0%, #9999998a 100%) !important;
   border-radius: 5px;
   height: -webkit-min-content;
   height: -moz-min-content;
