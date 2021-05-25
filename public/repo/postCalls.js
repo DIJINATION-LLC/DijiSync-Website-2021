@@ -1,8 +1,8 @@
-// console.log("Hi i m there");
+console.log("Hi i m there");
 $.getScript('./public/GlobalConfig/config.js')
 $(document).ready(function () {
 
-    $('#btnSubmitContact').click(function (e) {
+    $('#btnSubmitContact').submit(function (e) {
 
         e.preventDefault()
         console.log('button clicked')
@@ -12,20 +12,16 @@ $(document).ready(function () {
         const phone = $('#phone').val();
         const message = $('#message').val();
 
-        if(department != "" && name != "" && phone != "" && message != ""){
             console.log("Working if");
             $.post(`http://localhost:3000/api/v1/form`, { department: department, name: name , phone: phone , message: message }, (data, status) => {
                 // if (status == "success") {
                 //     window.location = "/"
                 // }
             })
-        }else{
-            console.log("Please fill all fields")
-        }
 
     })
 
-    $('#btnSubmit').click(function (e) {
+    $('#btnSubmit').submit(function (e) {
 
         e.preventDefault()
         console.log('button clicked')
@@ -37,18 +33,13 @@ $(document).ready(function () {
         const address = $('#address').val();
         const desc = $('#desc').val();
 
-        if(name != "" && practiceName != "" && phone != "" && email != "" && address != "" && desc != ""){
+       
             console.log("Working if");
             $.post(`http://localhost:3000/api/v1/form`, { name: name , practiceName: practiceName , phone: phone , email: email ,  address: address , desc:desc }, (data, status) => {
                 // if (status == "success") {
                 //     window.location = "/"
                 // }
             })
-        }else{
-            console.log("Please fill all fields")
-        }
-
-
 
     })
 
