@@ -351,30 +351,30 @@
           <form action="#" method="post">
            <div class="admission-form">
             <div class="form-group">
-             <input type="text" class="form-control" placeholder="Full Name*" required="">
+             <input id="name" type="text" class="form-control" placeholder="Full Name*" required="">
            </div>
            <div class="form-group">
-             <input type="text" class="form-control" placeholder="Practice Name*" required="">
+             <input id="practiceName" type="text" class="form-control" placeholder="Practice Name*" required="">
            </div>
            <div class="form-group">
-             <input type="text" class="form-control" placeholder="Phone Number*" required="">
+             <input id="phone" type="text" class="form-control" placeholder="Phone Number*" required="">
            </div>
            <div class="form-group">
-             <input type="email" class="form-control" placeholder="Email*" required="">
+             <input id="email" type="email" class="form-control" placeholder="Email*" required="">
            </div>
-           <select class="form-control">
+           <select id="practiceFunction" class="form-control">
              <option>Practice Funtion</option>
              <option>Physician</option>
              <option>Consultant</option>
            </select>
            <div class="form-group">
-             <input type="email" class="form-control" placeholder="Practice Address" required="">
+             <input id="address" type="email" class="form-control" placeholder="Practice Address" required="">
            </div>
          </div>
          <div class="form-group">
-          <textarea name="Comment" class="form-control" placeholder="Description*" required=""></textarea>
+          <textarea id="desc" name="Comment" class="form-control" placeholder="Description*" required=""></textarea>
         </div>
-        <button type="submit" class="btn btn-primary submit">Submit Now</button>
+        <button id="btnSubmit" type="submit" class="btn btn-primary submit">Submit Now</button>
       </form>
     </div>
   </div>
@@ -467,7 +467,7 @@
   </script>
   
 
-  <script src="assets/js/jquery-3.3.1.min.js"></script>
+  <!-- <script src="assets/js/jquery-3.3.1.min.js"></script> -->
 
   <script src="assets/js/green-audio-player.js"></script>
 
@@ -550,6 +550,8 @@
     });
   </script>
   <script src="assets/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="./public/repo/postCalls.js"></script>
 
 </body>
 

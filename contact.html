@@ -162,11 +162,54 @@
         <div class="col-lg-6 col-md-10 ">
           <div class="appoinment-wrap mt-5 mt-lg-0">
             <h3 class="mb-2 title">Fill out this form to connect with one of our experts</h3>
-            <form id="#" class="appoinment-form" method="post" action="#">
+            <!-- <form class="gform pure-form pure-form-stacked" method="POST" 
+            action="https://script.google.com/macros/s/AKfycbwWBLVZERQ6zFfwa1ma9jDa0XLuJ3tkrsJ6TL5UTBpwuFhESWqeEKqI-SxY3tlDjjb6/exec">
+               change the form action to your script url -->
+          
+              <!-- <div class="form-elements">
+                <fieldset class="pure-group">
+                  <label for="name">Name: </label>
+                  <input id="name" name="name" placeholder="What your Mom calls you" />
+                </fieldset>
+          
+                <fieldset class="pure-group">
+                  <label for="message">Message: </label>
+                  <textarea id="message" name="message" rows="10"
+                  placeholder="Tell us what's on your mind..."></textarea>
+                </fieldset>
+          
+                <fieldset class="pure-group">
+                  <label for="email"><em>Your</em> Email Address:</label>
+                  <input id="email" name="email" type="email" value=""
+                  required placeholder="your.name@email.com"/>
+                </fieldset>
+          
+                <fieldset class="pure-group">
+                  <label for="color">Favourite Color: </label>
+                  <input id="color" name="color" placeholder="green" />
+                </fieldset>
+          
+                <fieldset class="pure-group honeypot-field">
+                  <label for="honeypot">To help avoid spam, utilize a Honeypot technique with a hidden text field; must be empty to submit the form! Otherwise, we assume the user is a spam bot.</label>
+                  <input id="honeypot" type="text" name="honeypot" value="" />
+                </fieldset>
+          
+                <button class="button-success pure-button button-xlarge">
+                  <i class="fa fa-paper-plane"></i>&nbsp;Send</button>
+              </div>
+          
+               Customise the Thankyou Message People See when they submit the form: -->
+              <!-- <div class="thankyou_message" style="display:none;">
+                <h2><em>Thanks</em> for contacting us!
+                  We will get back to you soon!</h2>
+              </div> -->
+          
+            <!-- </form>   -->
+            <form id="#" class="appoinment-form" method="POST" data-email="saadalikc02@gmail.com" action="https://script.google.com/macros/s/AKfycby71lQg-RpgEzsg-_VQwzC99h0EWJDCx-00NMut8RZtPe3RtwvsyKGf48MiFZXnIuxA/exec">
               <div class="row">
                <div class="col-lg-6">
                 <div class="form-group">
-                  <select class="form-control" id="exampleFormControlSelect1">
+                  <select class="form-control" id="department">
                     <option>Choose Department</option>
                     <option>Software Design</option>
                     <option>Development cycle</option>
@@ -180,7 +223,7 @@
               </div>
               <div class="col-lg-6">
                 <div class="form-group">
-                  <select class="form-control" id="exampleFormControlSelect2">
+                  <select class="form-control" id="doctor">
                     <option>Select Doctors</option>
                     <option>Software Design</option>
                     <option>Development cycle</option>
@@ -212,12 +255,18 @@
                   <input name="phone" id="phone" type="Number" class="form-control" placeholder="Phone Number">
                 </div>
               </div>
+              <!-- <div class="col-lg-6">
+                <div class="form-group">
+                  <input name="Email" id="Email" type="Email" class="form-control" placeholder="Email">
+                </div>
+              </div> -->
             </div>
             <div class="form-group-2 mb-4">
               <textarea name="message" id="message" class="form-control" rows="6" placeholder="Your Message"></textarea>
             </div>
-            <a class="btn btn-primary btn-style" href="appoinment.html" >Submit <i class="icofont-simple-right ml-2  "></i></a>
-          </form>
+            <a class="btn btn-primary btn-style" id="btnSubmitContact" >Submit <i class="icofont-simple-right ml-2  "></i></a>
+          </form> 
+          <!--  href="appoinment.html" -->
         </div>
       </div>
     </div>
@@ -311,7 +360,7 @@
   </script>
   
 
-  <script src="assets/js/jquery-3.3.1.min.js"></script>
+  <!-- <script src="assets/js/jquery-3.3.1.min.js"></script> -->
 
   <script src="assets/js/green-audio-player.js"></script>
 
@@ -396,7 +445,9 @@
     });
   </script>
   <script src="assets/js/bootstrap.min.js"></script>
-
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script data-cfasync="false" type="text/javascript" src="form-submission-handler.js"></script>
+  <script src="./public/repo/postCalls.js"></script>
 </body>
 
 </html>
