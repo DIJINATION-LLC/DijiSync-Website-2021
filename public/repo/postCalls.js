@@ -13,7 +13,7 @@ $(document).ready(function () {
         const message = $('#message').val();
 
             console.log("Working if");
-            $.post(`http://dijisync.com/api/v1/form`, { department: department, name: name , phone: phone , message: message }, (data, status) => {
+            $.post(`https://dijisync.com/api/v1/form`, { department: department, name: name , phone: phone , message: message }, (data, status) => {
                 // if (status == "success") {
                 //     window.location = "/"
                 // }
@@ -35,7 +35,7 @@ $(document).ready(function () {
 
        
             console.log("Working if");
-            $.post(`http://dijisync.com/api/v1/form`, { name: name , practiceName: practiceName , phone: phone , email: email ,  address: address , desc:desc }, (data, status) => {
+            $.post(`https://dijisync.com/api/v1/form`, { name: name , practiceName: practiceName , phone: phone , email: email ,  address: address , desc:desc }, (data, status) => {
                 // if (status == "success") {
                 //     window.location = "/"
                 // }
