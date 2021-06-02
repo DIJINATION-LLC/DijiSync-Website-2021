@@ -1,7 +1,7 @@
 //  NOTE:  THIS IS NOT JAVASCRIPT!
 //  IT'S  MEANT TO BE SAVED AS AN EXTERNAL PHP FILE.
 
-/*   Be sure to remove the comments... 
+/*   Be sure to remove the message... 
 
 <?php
  
@@ -44,7 +44,7 @@ if(isset($_POST['email'])) {
  
     $telephone = $_POST['telephone']; // not required
  
-    $comments = $_POST['comments']; // required
+    $message = $_POST['message']; // required
  
      
  
@@ -72,7 +72,7 @@ if(isset($_POST['email'])) {
  
   }
  
-  if(strlen($comments) < 2) {
+  if(strlen($message) < 2) {
  
     $error_message .= '<li><p>Message appears to be incorrect</p></li>';
  
@@ -106,7 +106,7 @@ if(isset($_POST['email'])) {
  
     $email_message .= "Telephone: ".clean_string($telephone)."\n";
  
-    $email_message .= "Comments: ".clean_string($comments)."\n";
+    $email_message .= "message: ".clean_string($message)."\n";
  
       
  
