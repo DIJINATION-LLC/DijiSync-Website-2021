@@ -19,7 +19,17 @@ $validator->field('email')->isEmail();
 $validator->field('comments')->maxLength(6000);
 
 
+$mailer = $pp->getMailer();
 
+//Using Aamazon AWS SES SMTP account
+$mailer->IsSMTP();
+$mailer->SMTPAuth   = true;
+$mailer->SMTPSecure = "tls";
+$mailer->Host       = "email-smtp.us-east-1.amazonaws.com";
+$mailer->Username   = "taimurisrar806@gmail.com";
+$mailer->Password   = "Rumyat806";
+
+$mailer->setFrom('taimurisrar806@gmail.com', 'Form');
 
 $pp->sendEmailTo('taimurisrar806@gmail.com'); // ← Your email here
 

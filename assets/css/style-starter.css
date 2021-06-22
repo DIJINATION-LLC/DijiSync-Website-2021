@@ -12416,4 +12416,37 @@ section.diji-grid-quote h3 {
   padding-top: 0.8rem;
 }
 
+.diji-privacy-policy li{
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding-top: 0.6rem;
+}
+
+.diji-privacy-policy a{
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: #3166d0;
+}
+
+.diji-privacy-policy a:hover{
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+
+.diji-privacy-policy .less-spacing p{
+  padding: 0.4rem !important;
+  margin: 0 !important;
+}
+.diji-privacy-policy ol{
+  padding-top: 0.6rem;
+}
+
+.diji-privacy-policy p{
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  padding-top: 0.8rem;
+}
+
 ul.x {list-style-type: disc !important;}
