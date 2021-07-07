@@ -10231,7 +10231,7 @@ h3.title {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 30px;
+  /* bottom: 30px; */
   background: none; }
 
 .owl-theme .owl-nav [class*=owl-] {
@@ -12639,7 +12639,7 @@ ul.x {list-style-type: disc !important;}
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
-  background: url("../img/testimonials-bg.jpg") no-repeat;
+  background: url("../images/reception.jpg") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -12652,7 +12652,7 @@ ul.x {list-style-type: disc !important;}
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.6);
 }
 
 .testimonials .section-header {
